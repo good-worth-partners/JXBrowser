@@ -1,3 +1,5 @@
+package jxbrowse;
+
 import com.teamdev.jxbrowser.browser.Browser;
 import com.teamdev.jxbrowser.engine.Engine;
 import com.teamdev.jxbrowser.engine.EngineOptions;
@@ -23,7 +25,6 @@ public final class JXBrowse {
             // Creating Swing component for rendering web content
             // loaded in the given Browser instance
             BrowserView view = BrowserView.newInstance(browser);
-
             // Creating and displaying Swing app frame
             JFrame frame = new JFrame("POS");
             // Closing the engine when app frame is about to close
