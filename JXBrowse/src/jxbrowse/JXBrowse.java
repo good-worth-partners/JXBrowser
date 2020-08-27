@@ -35,7 +35,7 @@ public final class JXBrowse {
             });
             frame.setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
             frame.add(view, BorderLayout.CENTER);
-            frame.setSize(800, 600);
+            frame.setSize(1400, 600);
             frame.setVisible(true);
         });
     }
