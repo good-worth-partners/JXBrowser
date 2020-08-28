@@ -16,11 +16,9 @@ public final class JXBrowse {
         // Creating and running Chromium engine
         Engine engine = Engine.newInstance(
                 EngineOptions.newBuilder(HARDWARE_ACCELERATED).licenseKey("1BNDHFSC1FWIJ060C1P9G8XK6L6DH2APZ7FDB22ZMMIX6VGRRMBIE3WMAW5VF3V1SN3NQ1").build());
-
         Browser browser = engine.newBrowser();
         // Loading the required web page
         browser.navigation().loadUrl("http://46.165.243.164:9876/gwplpos/menucard?pt=4_EXT6");
-
         SwingUtilities.invokeLater(() -> {
             // Creating Swing component for rendering web content
             // loaded in the given Browser instance
